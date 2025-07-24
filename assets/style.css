@@ -92,15 +92,16 @@
   gap: 17px;
 }
 .card {
-  border: 1px dotted lavender;
-  height: 320px;
-  width: 270px;
+  /* border: 1px dotted lavender;*/
+  height: 500px;
+  width: 300px;
 }
 
 .card img {
-  height: 320px;
-  width: 270px;
+  width: 100%;
+  height: 100%;
 }
+
 .btn {
   background-color: rgb(233, 90, 8);
   margin: 30px 20px;
@@ -128,7 +129,91 @@
   align-items: center;
   padding: 10px;
 }
+
+/* flower lover */
+
+.flower-lover {
+  margin-top: 250px;
+  display: flex;
+  gap: 60px;
+  position: relative;
+}
+.badge {
+  position: absolute;
+  left: 337px;
+  top: -70px;
+  width: 286px;
+  height: 286px;
+}
+
+.flower-right {
+  flex: 1;
+}
+
+.flower-right h2 {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 16px;
+}
+
+.flower-right ul li {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-weight: 400;
+  list-style-type: circle;
+  gap: 20px;
+}
+
+/* deal section here */
+.deal-content {
+}
+/*.deal-img {
+  display: grid;
+  grid-template-columns: ;
+}
+
+.deal-img {
+  display: flex;
+
+
+
+.deal-img vartical {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+} */
 /* nav bar media qu */
+
+.deal-img left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.deal-content h2 {
+  color: rgb(233, 90, 8);
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.deal-content p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.deal-img right-side {
+  border: 2px solid burlywood;
+}
+/*.deal-content h2 deal {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 50px;
+  font-weight: 700;
+}
+*/
+
+.deal-img {
+  display: flex;
+  gap: 28px;
+}
 
 @media screen and (max-width: 576px) {
   .nav-right > ul {
@@ -149,5 +234,26 @@
   .plant-top {
     gap: 20px;
     max-width: 100%;
+  }
+
+  .flower-lover {
+    margin-top: 200px;
+    gap: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flower-right h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 5px;
+  }
+
+  .flower-right ul li {
+    list-style-type: circle;
+  }
+
+  .badge {
+    display: none;
   }
 }
