@@ -389,14 +389,24 @@
     gap: 20px;
   }
   .email-container {
-    width: 350px;
-    height: 230px;
+    width: 280px;
+    height: 100px;
   }
 
   .email-input {
   height: 20px;
   width: 80px;
 }
+.submit-btn{
+   height: 30px;
+  width: 106px;
+}
+.bounch{
+  width: 100%;
+}
 
+.bounch h2{
+  font-size: 30px;
+}
 
 }
