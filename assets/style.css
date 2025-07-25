@@ -194,6 +194,10 @@
   font-weight: 700;
 }
 
+.deal-content {
+  text-align: center;
+}
+
 .deal-content p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 22px;
@@ -213,6 +217,53 @@
 .deal-img {
   display: flex;
   gap: 28px;
+}
+
+/* bun */
+.bounch {
+  background-image: url("./news-letter-bg.png");
+  width: 1140px;
+  height: 533px;
+  /*margin-left: 200px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bounch h2 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  width: 644px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  /* overflow: hidden;*/
+}
+
+.email-input {
+  flex: 1;
+  border: none;
+  padding: 0 15px;
+  font-size: 16px;
+  height: 50px;
+  width: 600px;
+}
+
+.submit-btn {
+  background-color: rgb(233, 90, 8);
+  color: wheat;
+  padding: 0 20px;
+  height: 50px;
+  width: 186px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 576px) {
@@ -255,5 +306,11 @@
 
   .badge {
     display: none;
+  }
+
+  .bounch {
+    background-image: url("./news-letter-bg.png");
+    width: 390px;
+    height: 275px;
   }
 }
